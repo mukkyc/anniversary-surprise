@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Anniversary 1 month ❤️</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom, #fff1f2, #ffffff);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero .tag {
+      color: #e11d48;
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: 3.2rem;
+      margin-bottom: 20px;
+      color: #be123c;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 35px;
+      background: #e11d48;
+      color: white;
+      padding: 14px 28px;
+      text-decoration: none;
+      border-radius: 16px;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 60px 0;
+    }
+
+    .card {
+      background: white;
+      border-radius: 22px;
+      padding: 30px;
+      border: 1px solid #ffe4e6;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    }
+
+    .card h2 {
+      margin-bottom: 14px;
+      color: #be123c;
+    }
+
+    .letter {
+      background: white;
+      padding: 60px 30px;
+      border-radius: 30px;
+      text-align: center;
+      margin: 60px 0;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    }
+
+    .letter h2 {
+      margin-bottom: 20px;
+      color: #be123c;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #777;
+      font-size: 0.95rem;
+    }
+  
+
+    .countdown {
+      background: white;
+      border-radius: 24px;
+      padding: 30px;
+      margin: 40px 0;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+      border: 1px solid #ffe4e6;
+    }
+
+    .popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.6);
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
+
+    .popup-content {
+      background: white;
+      padding: 40px;
+      border-radius: 30px;
+      text-align: center;
+      width: 90%;
+      max-width: 500px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+
+    .close-btn {
+      margin-top: 20px;
+      background: #e11d48;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 14px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <section class="hero" style="background: linear-gradient(135deg, #fff7f9, #ffffff); border-radius: 32px; margin-top: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.04); position: relative; overflow: hidden;">
+      <div style="position:absolute; top:20px; right:30px; font-size:40px; opacity:0.15;">🎬</div>
+      <div style="position:absolute; bottom:20px; left:30px; font-size:36px; opacity:0.12;">❤️</div>
+      <div class="tag">Happy Anniversary 1 month ❤️</div>
+      <h1>To Teeruk</h1>
+      <p>
+        This website is made just for you — a small surprise for someone
+        who means so much to me. Thank you for every smile, every memory,
+        and every beautiful moment we share together.
+      </p>
+
+      <a href="javascript:void(0)" onclick="openPopup()" class="btn">
+        Click meee!
+      </a>
+      
+    </section>
+
+
+   
+
+
+    <section class="letter">
+      <h2>A Letter For teeruk ✨</h2>
+      <p>
+        No matter how busy life gets, I want you to know this: I appreciate
+        you, I care about you, and I’m grateful for your presence in my life.
+        Thank you for staying, for understanding, and for simply being you.
+        If I could choose again, I would still choose you.
+        Over and over, in every lifetime. 
+      </p>
+      <h3 style="margin-top: 24px; color:#e11d48;">
+        I love you. Always teeruk. 
+      </h3>
+    </section>
+
+
+  </div>
+
+  <footer>
+    Mukky loves Gun ❤️
+  </footer>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" loop>
+    <source src="until.mp3" type="audio/mpeg">
+  </audio>
+  <script>
+    function openPopup() {
+      document.getElementById("surprisePopup").style.display = "flex";
+    
+      const music = document.getElementById("bgMusic");
+      music.play();
+    }
+    </script>
+
+  <div id="surprisePopup" class="popup">
+    <div class="popup-content">
+      <h2>Surprise For You 🎁</h2>
+      <p style="margin-top:15px;">
+        Thank you for being the best part of my life ❤️<br>
+        Every day with you is my favorite day.
+      </p>
+      
+      <a href="page2.html" class="close-btn" style="display:inline-block; text-decoration:none;">Click me againn</a>
+    </div>
+  </div>
+
+  <section id="next-surprise" class="letter">
+    <h2>Special Video 🎥</h2>
+    <video controls autoplay style="width:80%; max-width:700px; border-radius:20px; margin-top:20px; box-shadow:0 8px 20px rgba(0,0,0,0.08);">
+      <source src="teerak.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+</body>
+</html>
